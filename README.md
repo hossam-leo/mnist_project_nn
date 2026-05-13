@@ -45,37 +45,7 @@ The following plot illustrates the training loss and accuracy curves for all exp
 
 ![Experiment Comparison Plot](results/experiment_comparison.png)
 
-## 6. Instructions for Running the Project
-
-To run this project, follow these steps:
-
-1.  **Clone the repository:**
-    ```bash
-    git clone <your-github-repo-link>
-    cd mnist_project
-    ```
-
-2.  **Install dependencies:**
-    Ensure you have Python 3.11 and pip installed. Then install the required Python packages:
-    ```bash
-    sudo pip3 install torch==2.0.1 torchvision==0.15.2 numpy==1.26.4 matplotlib
-    ```
-
-3.  **Run the experiments and generate results:**
-    Navigate to the `mnist_project` directory and execute the training script:
-    ```bash
-    python3.11 src/train.py
-    ```
-    This will train the models, save the results in JSON files in the `results/` directory, and automatically download the MNIST dataset to the `data/` directory.
-
-4.  **Generate visualizations:**
-    After running the training script, execute the visualization script to generate the comparison plot and summary table:
-    ```bash
-    python3.11 src/visualize.py
-    ```
-    The `experiment_comparison.png` image and `summary_table.json` will be saved in the `results/` directory.
-
-## 7. Code Organization
+## 6. Code Organization
 - `mnist_project/`
   - `data/`: Contains the downloaded MNIST dataset.
   - `results/`: Stores experiment results (JSON files) and visualization plots (PNG).
