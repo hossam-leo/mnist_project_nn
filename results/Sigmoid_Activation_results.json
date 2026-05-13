@@ -1,0 +1,1 @@
+{"name": "Sigmoid_Activation", "params": {"hidden_size": 128, "lr": 0.001, "activation": "sigmoid", "epochs": 2}, "history": {"loss": [0.3930437796270606, 0.17833780954037903], "accuracy": [90.00333333333333, 94.94666666666667]}, "test_results": {"loss": 0.15444235850398422, "accuracy": 95.42, "mse": 0.006880525388125743}}
