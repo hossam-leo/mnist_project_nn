@@ -1,0 +1,26 @@
+[
+    {
+        "Experiment": "Baseline",
+        "Test Loss": "0.0805",
+        "Test Accuracy": "97.57%",
+        "Test MSE": "0.0037",
+        "Activation": "relu",
+        "Learning Rate": 0.001
+    },
+    {
+        "Experiment": "High_LR",
+        "Test Loss": "0.2226",
+        "Test Accuracy": "95.48%",
+        "Test MSE": "0.0071",
+        "Activation": "relu",
+        "Learning Rate": 0.01
+    },
+    {
+        "Experiment": "Sigmoid_Activation",
+        "Test Loss": "0.1028",
+        "Test Accuracy": "97.00%",
+        "Test MSE": "0.0047",
+        "Activation": "sigmoid",
+        "Learning Rate": 0.001
+    }
+]
