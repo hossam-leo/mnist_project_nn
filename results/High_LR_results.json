@@ -1,1 +1,0 @@
-{"name": "High_LR", "params": {"hidden_size": 128, "lr": 0.01, "activation": "relu", "epochs": 2}, "history": {"loss": [0.2799572546962402, 0.20480515728932994], "accuracy": [91.81166666666667, 94.39833333333333]}, "test_results": {"loss": 0.19002571030909932, "accuracy": 94.99, "mse": 0.007598351448495453}}

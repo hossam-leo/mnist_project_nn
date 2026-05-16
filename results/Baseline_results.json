@@ -1,1 +1,0 @@
-{"name": "Baseline", "params": {"hidden_size": 128, "lr": 0.001, "activation": "relu", "epochs": 2}, "history": {"loss": [0.2587453905226929, 0.11223107295484146], "accuracy": [92.46166666666667, 96.60666666666667]}, "test_results": {"loss": 0.09366867145683593, "accuracy": 96.97, "mse": 0.004455103250125297}}
